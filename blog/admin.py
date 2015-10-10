@@ -15,6 +15,3 @@ class Postadmin(admin.ModelAdmin):
 
 admin.site.register(Post, Postadmin)
 admin.site.register(Categoria)
-
-class Categoriadmin(admin.ModelAdmin):
-    list_display = ('nome','titulo')

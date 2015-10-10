@@ -1,0 +1,79 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="stylesheet"  href="{% static "css/blog.css" %}">
+
+    <title>Mulheres de Scooter</title>
+  </head>
+
+  <body>
+
+    <div class="nav">
+      <div class="cointainer">
+        <ul class="pull-left">
+          <li><a href="#">Home</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Anúncios</a></li>
+          <li><a href="#">Eventos</a></li>
+          <li><a href="#">Contate-nos</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Scooters Girls</h1>
+        <p>Conheça as mulheres apaixonadas por Scooters</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>{% load staticfiles %}
+
+
+    <div class="guides">
+      <div class="container">
+        <h2>Pilotando com Estilo e Segurança</h2>
+          <div class="row">
+            <div class="col-md-4">
+             {% block content %}
+             {% endblock content %}
+          </div>
+        </div>
+     </div>
+   </div>
+
+   <div class="learn-more">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Viage!</h3>
+            <p>Confira nossas dicas de viagem e histórias de quem já se aventurou na estrada.</p>
+            <p><a href="#">Veja como viajar na sua scooter</a></p>
+          </div>
+
+         <div class="col-md-4">
+           <h3>Moto Looks</h3>
+           <p>Conheça as peças essenciais para pilotagem.</p>
+           <p><a href="#">Looks para o dia a dia</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <h3>Safety</h3>
+          <p>Pilote com Segurança</p>
+          <p><a href="#">Leais mais sobre dicas de segurança</a></p>
+       </div>
+	   </div>
+	  </div>
+	</div>
+  <div class="footer">
+        <p>Copyright © 2015 | Mulheres de Scooter</p>
+        <h4>Desenvolvido por: minas.com</h4>
+  </div>
+
+ </body>
+</html>
