@@ -60,6 +60,8 @@
 }
 .guides .container {
     margin-left: 20px;
+    position: relative;
+    padding-top: 25px;
 }
 .guides h2{
     color: #393c3d;
@@ -68,11 +70,39 @@
     margin-bottom: 40px;
 }
 
+.post h4{
+    font-size:22px;
+    position: relative;
+    padding-top:30px;
+    padding-bottom:5px;
+}
+.pencil {
+  float: right;
+  font-size: 8px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.post p{
+    font-size:15px;
+    position: relative;
+    padding-top:px;
+    padding-bottom:20px;
+}
+.post h4 a{
+    text-decoration: none;
+    color: #2E9AFE;
+}
+.post h4 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .data{
   color: #828282;
   font-size: 12px;
   position: relative;
-  padding-top: 5px;
+  padding-top: 48px;
 }
 .data ul{
   list-style-type: none;
@@ -85,33 +115,9 @@
   float:right;
   font-style: italic;
 }
-.post h4{
-    font-size:22px;
-    position: relative;
-    padding-top:30px;
-    padding-bottom:15px;
-}
-
-.post p{
-    font-size:15px;
-    position: relative;
-    padding-top:0px;
-    padding-bottom:20px;
-}
-.post h4 a{
-    text-decoration: none;
-    color: #2E9AFE;
-}
-.post h4 a:hover {
-  color: black;
-  text-decoration: none;
-}
 
 
-.edite{
-  float:right;
-  font-size: 8px;
-}
+
 
 .bloq{
   float: right;
@@ -122,19 +128,22 @@
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: black;
     float: right;
+    position: relative;
+    padding-right: 10px;
 }
+
 .top-menu{
-  padding-right: 8px;
+  margin-top: 270px;
+
 }
 .top-menu p{
-  font-size: 10px;
+  font-size: 8px;
 }
+
 .page-header h4{
     color: black;
     text-decoration: none;
 }
-
-
 
 .save {
     float: right;
@@ -142,6 +151,11 @@
 
 .post-form textarea, .post-form input {
     width: 100%;
+}
+
+.post-form {
+  position: relative;
+  padding-top: 20px;
 }
 
 
